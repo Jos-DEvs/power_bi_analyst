@@ -1,5 +1,5 @@
 
-SELECT * FROM Album a ;
+SELECT * FROM Album a;
 SELECT count(*) as Records FROM Album a;
 
 SELECT count(*) FROM Album a WHERE Column1 is NOT NULL;
