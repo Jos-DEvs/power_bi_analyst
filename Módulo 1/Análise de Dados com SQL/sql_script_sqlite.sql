@@ -7,7 +7,7 @@ SELECT AlbumId, Title FROM Album a WHERE Column1 is NULL;
 
 SELECT * FROM Artist a;
 
-SELECT * FROM Album a INNER JOIN Artist a2; // Selecionar todos os artistas tendo um album
+SELECT * FROM Album a INNER JOIN Artist a2; /* Sintaxe é incompleta: Este código utiliza um INNER JOIN sem especificar a condição de junção entre as tabelas Album e Artist */
 
 -- caracterizando os registros dos artistas
 SELECT a2.ArtistId, a2.Name, count(*) as Records from Album a INNER JOIN Artist a2 GROUP BY 1;
